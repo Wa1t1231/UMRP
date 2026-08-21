@@ -1,0 +1,61 @@
+{
+  "synthetic_data_notice": "Simulation only. No real farm observations and no real LLM endpoint calls were used.",
+  "test_days": 30,
+  "test_order_lines": 843,
+  "default_objective_weights": {
+    "lambda_priority": 4.0,
+    "lambda_substitution": 2.0,
+    "lambda_waste": 6.0
+  },
+  "condition_means": {
+    "B0_manual": {
+      "waste_proxy_rate": 0.038439,
+      "quantity_fulfillment_rate": 0.70717,
+      "complete_order_fulfillment_rate": 0.577717,
+      "exact_grade_fulfillment_rate": 0.657888,
+      "substituted_fulfillment_rate": 0.049282,
+      "decision_cycle_minutes": 29.972626,
+      "solver_seconds": 0.025238,
+      "weighted_service_value": 654.656667
+    },
+    "B1_optimization_only": {
+      "waste_proxy_rate": 0.006463,
+      "quantity_fulfillment_rate": 0.788133,
+      "complete_order_fulfillment_rate": 0.659709,
+      "exact_grade_fulfillment_rate": 0.653905,
+      "substituted_fulfillment_rate": 0.134228,
+      "decision_cycle_minutes": 2.902779,
+      "solver_seconds": 0.016712,
+      "weighted_service_value": 728.361667
+    },
+    "P1_proposed_dss": {
+      "waste_proxy_rate": 0.007691,
+      "quantity_fulfillment_rate": 0.766359,
+      "complete_order_fulfillment_rate": 0.640497,
+      "exact_grade_fulfillment_rate": 0.633577,
+      "substituted_fulfillment_rate": 0.132782,
+      "decision_cycle_minutes": 3.906085,
+      "solver_seconds": 0.015306,
+      "weighted_service_value": 709.385
+    }
+  },
+  "extraction_summary": {
+    "test_messages": 330.0,
+    "test_order_lines": 843.0,
+    "macro_field_f1": 0.9574024764036313,
+    "record_exact_match_rate": 0.7876631079478055,
+    "invalid_json_rate": 0.01818181818181818,
+    "human_confirmation_rate": 0.3181818181818182
+  },
+  "hypotheses_supported": {
+    "H1": true,
+    "H2": true,
+    "H3": true
+  },
+  "all_robustness_checks_passed": true,
+  "sensitivity_scenarios": 27,
+  "ablation_scenarios": 4,
+  "human_ratings": 180,
+  "override_records": 5,
+  "solver": "custom min-cost-flow LP-equivalent network solver; continuous transportation structure with integral capacities"
+}

@@ -1,0 +1,7 @@
+﻿metric,value
+test_messages,330.0
+test_order_lines,843.0
+macro_field_f1,0.9574024764036313
+record_exact_match_rate,0.7876631079478055
+invalid_json_rate,0.01818181818181818
+human_confirmation_rate,0.3181818181818182

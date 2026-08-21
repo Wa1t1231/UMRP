@@ -1,0 +1,19 @@
+{
+  "dataset_version": "synthetic-agri-dss-v1.0",
+  "synthetic_data_notice": "All records are generated for reproducible simulation; they are not observations from a real farm and parser predictions are not outputs from a real LLM endpoint.",
+  "seed": 20260820,
+  "date_start": "2025-01-01",
+  "date_end": "2025-03-31",
+  "operating_days": 90,
+  "development_days": 60,
+  "test_days": 30,
+  "customers": 12,
+  "products": 8,
+  "supply_lots": 5445,
+  "messages": 1012,
+  "order_lines": 2515,
+  "total_supply_kg": 53724.0,
+  "total_demand_kg": 57057.0,
+  "days_demand_exceeds_supply": 71,
+  "test_definition": "Chronological holdout: first 60 days development, last 30 days test."
+}

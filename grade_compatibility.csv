@@ -1,0 +1,5 @@
+﻿supply_grade,requested_grade,compatible,substitution_penalty_per_kg
+A,A,1,0.0
+A,B,1,0.55
+B,A,0,999.0
+B,B,1,0.0

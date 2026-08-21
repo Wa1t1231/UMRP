@@ -1,0 +1,7 @@
+﻿check,passed,observed
+No supply over-allocation,True,maximum excess=0.000000 kg
+No demand over-allocation,True,maximum excess=0.000000 kg
+Invalid JSON blocked by human gate,True,all invalid JSON messages require confirmation
+Missing units blocked by human gate,True,missing-unit rows=70
+No expired cohort allocated,True,all allocated cohorts satisfy age < shelf life
+Non-negative allocation variables,True,all x >= 0

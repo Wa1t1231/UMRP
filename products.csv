@@ -1,0 +1,9 @@
+﻿product_id,product_name_en,product_name_zh,aliases,shelf_life_days,unit_price_per_kg,kg_per_box,kg_per_crate,base_daily_supply_kg
+P01,Tomato,番茄,tomatoes|tomato|toms,3,3.2,5.0,10.0,105
+P02,Lettuce,生菜,lettuce|lettuces|lett,3,2.6,4.0,8.0,72
+P03,Cucumber,黄瓜,cucumber|cucumbers|cuke,4,2.1,6.0,12.0,88
+P04,Strawberry,草莓,strawberry|strawberries|berries,3,6.8,3.0,6.0,55
+P05,Bell Pepper,甜椒,bell pepper|peppers|capsicum,5,4.1,5.0,10.0,64
+P06,Spinach,菠菜,spinach|spin|leaf spinach,3,3.0,3.0,6.0,50
+P07,Carrot,胡萝卜,carrot|carrots|car,7,1.8,8.0,16.0,95
+P08,Broccoli,西兰花,broccoli|broc|brocc,5,3.7,5.0,10.0,60

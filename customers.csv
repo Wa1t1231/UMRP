@@ -1,0 +1,13 @@
+﻿customer_id,customer_segment,priority_weight,contract_class,default_substitution_allowed
+C001,Key retail,2.0,protected,True
+C002,Key retail,1.9,protected,True
+C003,Hotel/restaurant,1.65,standard,True
+C004,Hotel/restaurant,1.55,standard,True
+C005,Wholesale,1.35,standard,True
+C006,Wholesale,1.3,standard,True
+C007,Local shop,1.15,standard,False
+C008,Local shop,1.1,standard,False
+C009,Food service,1.45,standard,True
+C010,Food service,1.4,standard,True
+C011,Market stall,1.0,spot,False
+C012,Market stall,0.95,spot,False

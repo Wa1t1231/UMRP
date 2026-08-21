@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this synthetic dataset or experiment code, please cite this repository and the associated research project."
+title: "Synthetic Agricultural Supply-Demand Decision Support System Experiment"
+type: software
+authors:
+  - family-names: "Cao"
+    given-names: "Jian"
+version: 1.0.0
+date-released: 2026-08-21
